@@ -42,15 +42,15 @@ public class LibraryApplication {
 	CommandLineRunner runner() {
 		return args -> {
 		
-			User user1 = new User("admin", pwEncoder.encode("test"), "martijn.reede@gmail.com", "Martijn", "Reede", "Huizumerlaan 158", "06-11433823", "Amsterdam");
+			User user1 = new User("admin", pwEncoder.encode("test"), "hovhannisyan@gmail.com", "Karlos", "Hovhannisyan", "rustaveli", "06-11433823", "Gyumrii");
 			user1.setRole("ROLE_ADMIN");
 			
-			User user2 = new User("employee", pwEncoder.encode("test"), "cyrille.jones@gamail.com", "Cyrille", "Jones", "Hugo de Grootstraat 174", "06-87054875", "Sliedrecht");
+			User user2 = new User("employee", pwEncoder.encode("test"), "TonySoprano@gamail.com", "Tony", "Soprano", "14 Aspen Druve,North Caldwell", "06-87054875", "New Jersey");
 			user2.setRole("ROLE_EMPLOYEE");
 			
 			User user3 = new User("user", pwEncoder.encode("test"), "kevin.leijnse@gmail.com", "Kevin", "Leijnse", "Leidijk 97", "06-18756892", "Groningen");
 			user3.setRole("ROLE_USER");	
-			User user4 = new User("aniemies", pwEncoder.encode("test"), "annemie.schuurbiers@gmail.com", "Annemie", "Schuurbiers", "Duinerlaan 173", "06-83472443", "Eelde");
+			User user4 = new User("kevin", pwEncoder.encode("test"), "annemie.schuurbiers@gmail.com", "Kevin", "Shelby", "Duinerlaan 173", "06-83472443", "Eelde");
 			User user5 = new User("seppe", pwEncoder.encode("test"), "seppe.bruinink@gmail.com", "Seppe", "Bruinink", "Gangboord 90", "06-13644621", "Oosterhout");
 			User user6 = new User("beukenplein", pwEncoder.encode("test"), "m.snel@gmail.com", "Mikael", "Snel", "Onderkampstraat 30", "06-90982738", "Susteren");
 			User user7 = new User("bookwurm", pwEncoder.encode("test"), "bookwurm@gmail.com", "Martina", "Jansen", "Nieuweweg 200", "06-00492182", "Burgum");
